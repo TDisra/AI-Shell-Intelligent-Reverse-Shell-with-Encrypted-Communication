@@ -26,7 +26,7 @@ class Socket(object):
         if confirm:
             return command
         while True:
-            ask = input(f"{command}\ny/n")
+            ask = input(f"[+] >> Do you confirm the command - '{command}'? (y/n): ")
             if ask == "y":
                 return command
             elif ask == "n":
