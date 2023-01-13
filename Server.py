@@ -72,4 +72,4 @@ class Socket(object):
                     out = self.readMsg(conn)
                     print(out + "\n")
 
-Socket("Client IP", 1213).connection()
+Socket("Client IP", PORT).connection()
