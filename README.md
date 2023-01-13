@@ -3,7 +3,7 @@ An advanced reverse shell with AI capability and fully encrypted communication, 
 
 ### Features
 - Takes user input in the form of natural language and converts it into commands on the client side
-Fully encrypted communication using [insert encryption method]
+Fully encrypted communication using AES
 - Socket support for robust and reliable connections between the client and server
 ### Usage
 - Input commands in the form of natural language (e.g. "Open file explorer")
@@ -22,7 +22,8 @@ Together, we can make this reverse shell even more powerful and secure.
 - cryptography library for encryption.
 
 ### Installation
-- Copy code
+- Run the clirnt.py on the target
+- Run the Server.py on the Server
 - pip install cryptography
 
 #### Note
