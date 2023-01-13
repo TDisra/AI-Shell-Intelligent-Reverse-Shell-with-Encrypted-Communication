@@ -22,7 +22,7 @@ Together, we can make this reverse shell even more powerful and secure.
 - cryptography library for encryption.
 
 ### Installation
-- Run the clirnt.py on the target
+- Run the Client.py on the target
 - Run the Server.py on the Server
 - pip install cryptography
 
